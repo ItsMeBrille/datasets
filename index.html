@@ -25,20 +25,37 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link" href="api/v1/">Version 1&nbsp;&nbsp;<i
-                                class="fa-solid fa-file-lines"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="api/v2/">Version 2&nbsp;&nbsp;<i
-                                class="fa-solid fa-file-code"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">Om prosjektet&nbsp;&nbsp;<i
-                                class="fa-solid fa-circle-info"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="api/v1/">Version 1&nbsp;&nbsp;<i class="fa-solid fa-file-lines"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="api/v2/">Version 2&nbsp;&nbsp;<i class="fa-solid fa-file-code"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#about" href="#">About the project&nbsp;&nbsp;<i class="fa-solid fa-circle-info"></i></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- About modal -->
+    <div class="modal fade" id="about" tabindex="-1" aria-labelledby="help" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Hvordan fungerer det?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">All datasets are free to use for personal projects. Contact me if you want to use them for commercial purposes.<p>
+                    <p class="lead">The recommended way to use the datasets for web is to add them using their GitHub pages links. That way you will get live changes in the dataset. The structure of the datasets will always stay the same.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Lukk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- API list -->
     <section class="py-lg-5">
         <div class="container px-4 px-lg-5 my-5">
+
             <div class="row">
                 <div class="col-12 col-lg-3">
 
@@ -148,6 +165,8 @@
     <script type="text/javascript" src="static/js/bootstrap/bootstrap.bundle.min.js"></script>
     <!-- jQuery JS-->
     <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
+    <!-- ScrollReveal JS-->
+    <script type="text/javascript" src="static/js/scrollreveal/scrollreveal.js"></script>
     <!-- Script JS-->
     <script type="text/javascript" src="static/js/script.js"></script>
 
