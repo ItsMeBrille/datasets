@@ -39,85 +39,98 @@
     <!-- API list -->
     <section class="py-lg-5">
         <div class="container px-4 px-lg-5 my-5">
-            <div class="row g-4 gx-lg-5">
+            <div class="row">
+                <div class="col-12 col-lg-3">
 
-                <!-- List element -->
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Forsvarsord</h5>
-                            <p class="card-text">Ord og uttrykk fra Forsvaret</p>
-                            <p class="card-text">Opprinnelig hentet fra forsvaret.no</p>
-                            <p class="card-text">
-                                <span class="badge text-bg-secondary">V1</span>
-                                <span class="badge text-bg-secondary">JSON</span>
-                                <span class="badge text-bg-secondary">Gratis</span>
-                            </p>
-                            <a href="api/v1/forsvarsord.json" class="stretched-link">forsvarsord.json</a>
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control" id="api-list-search" placeholder="Søk" aria-label="Search" aria-describedby="search-addon"/>
+                        <span class="input-group-text border-0" id="search-addon"><i class="fas fa-search"></i></span>
+                    </div>
+
+                </div>
+                
+                <div class="col-12 col-lg-9">
+                    <div class="container">
+                        <div class="row g-4 gx-lg-5">
+
+                            <!-- List element -->
+                            <div class="col-12 col-md-6">
+                                <div class="card api-list-element">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Forsvarsord</h5>
+                                        <p class="card-text">Ord og uttrykk fra Forsvaret</p>
+                                        <p class="card-text">Opprinnelig hentet fra forsvaret.no</p>
+                                        <p class="card-text">
+                                            <span class="badge text-bg-secondary">V1</span>
+                                            <span class="badge text-bg-secondary">JSON</span>
+                                            <span class="badge text-bg-secondary">Gratis</span>
+                                        </p>
+                                        <a href="api/v1/forsvarsord.json" class="stretched-link">forsvarsord.json</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- List element -->
+                            <div class="col-12 col-md-6">
+                                <div class="card api-list-element">
+                                    <div class="card-body">
+            
+                                        <h5 class="card-title">Kebabnorsk</h5>
+                                        <p class="card-text">Liste med ord og uttrykk fra kebabnorsk, som er et uformelt norsk språk med røtter i blant annet arabisk, tyrkisk og urdu.</p>
+                                        <p class="card-text">Opprinnelig hentet fra kebabnorsk.diestus.no</p>
+                                        <p class="card-text">
+                                            <span class="badge text-bg-secondary">V1</span>
+                                            <span class="badge text-bg-secondary">JSON</span>
+                                            <span class="badge text-bg-secondary">Gratis</span>
+                                        </p>
+            
+                                        <a href="api/v1/kebabnorsk.json" class="stretched-link">kebabnorsk.json</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- List element -->
+                            <div class="col-12 col-md-6">
+                                <div class="card api-list-element">
+                                    <div class="card-body">
+            
+                                        <h5 class="card-title">Recipes</h5>
+                                        <p class="card-text">Liste med ulike matretter, ingredienser og fremgangsmåter.</p>
+                                        <p class="card-text">Opprinnelig hentet fra bbc.co.uk</p>
+                                        <p class="card-text">
+                                            <span class="badge text-bg-secondary">V1</span>
+                                            <span class="badge text-bg-secondary">JSON</span>
+                                            <span class="badge text-bg-secondary">Gratis</span>
+                                        </p>
+            
+                                        <a href="api/v1/recipes.json" class="stretched-link">recipes.json</a>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- List element -->
+                            <div class="col-12 col-md-6">
+                                <div class="card api-list-element">
+                                    <div class="card-body">
+            
+                                        <h5 class="card-title">Teltplasser</h5>
+                                        <p class="card-text">Liste over besøksverdige teltplasser i Norge (med koordinater)</p>
+                                        <p class="card-text">Opprinnelig hentet fra teltplass.no</p>
+                                            <span class="badge text-bg-secondary">V1</span>
+                                            <span class="badge text-bg-secondary">JSON</span>
+                                            <span class="badge text-bg-secondary">Gratis</span>
+                                        </p>
+            
+                                        <a href="api/v1/teltplasser.json" class="stretched-link">teltplasser.json</a>
+                                    </div>
+                                </div>
+                            </div>
+            
                         </div>
                     </div>
                 </div>
-
-
-                <!-- List element -->
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-
-                            <h5 class="card-title">Kebabnorsk</h5>
-                            <p class="card-text">Liste med ord og uttrykk fra kebabnorsk, som er et uformelt norsk språk med røtter i blant annet arabisk, tyrkisk og urdu.</p>
-                            <p class="card-text">Opprinnelig hentet fra kebabnorsk.diestus.no</p>
-                            <p class="card-text">
-                                <span class="badge text-bg-secondary">V1</span>
-                                <span class="badge text-bg-secondary">JSON</span>
-                                <span class="badge text-bg-secondary">Gratis</span>
-                            </p>
-
-                            <a href="api/v1/kebabnorsk.json" class="stretched-link">kebabnorsk.json</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- List element -->
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-
-                            <h5 class="card-title">Recipes</h5>
-                            <p class="card-text">Liste med ulike matretter, ingredienser og fremgangsmåter.</p>
-                            <p class="card-text">Opprinnelig hentet fra bbc.co.uk</p>
-                            <p class="card-text">
-                                <span class="badge text-bg-secondary">V1</span>
-                                <span class="badge text-bg-secondary">JSON</span>
-                                <span class="badge text-bg-secondary">Gratis</span>
-                            </p>
-
-                            <a href="api/v1/recipes.json" class="stretched-link">recipes.json</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- List element -->
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-
-                            <h5 class="card-title">Teltplasser</h5>
-                            <p class="card-text">Liste over besøksverdige teltplasser i Norge (med koordinater)</p>
-                            <p class="card-text">Opprinnelig hentet fra teltplass.no</p>
-                            <span class="badge text-bg-secondary">V1</span>
-                            <span class="badge text-bg-secondary">JSON</span>
-                            <span class="badge text-bg-secondary">Gratis</span>
-                            </p>
-
-                            <a href="api/v1/teltplasser.json" class="stretched-link">teltplasser.json</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+            
         </div>
     </section>
 
