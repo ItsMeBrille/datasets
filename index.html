@@ -1,140 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>NordAPI</title>
-        <!-- Bootstrap-->
-        <link href="static/css/bootstrap/bootstrap.min.css" rel="stylesheet"/>
-        <!-- Font Awesome icons-->
-        <link href="static/css/all.min.css" rel="stylesheet"/>
-        
-    </head>
-    <body class="d-flex flex-column min-vh-100">
 
-        <!-- Top nav-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">NordAPI</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link" href="api/v1/">Version 1&nbsp;&nbsp;<i class="fa-solid fa-file-lines"></i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="api/v2/">Version 2&nbsp;&nbsp;<i class="fa-solid fa-file-code"></i></a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">Om prosjektet&nbsp;&nbsp;<i class="fa-solid fa-circle-info"></i></a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>NordAPI</title>
+    <!-- Bootstrap-->
+    <link href="static/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome icons-->
+    <link href="static/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Top nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">NordAPI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link" href="api/v1/">Version 1&nbsp;&nbsp;<i
+                                class="fa-solid fa-file-lines"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="api/v2/">Version 2&nbsp;&nbsp;<i
+                                class="fa-solid fa-file-code"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Om prosjektet&nbsp;&nbsp;<i
+                                class="fa-solid fa-circle-info"></i></a></li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- API list -->
-        <section class="py-lg-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="row gx-4 gx-lg-5">
+    <!-- API list -->
+    <section class="py-lg-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row g-4 gx-lg-5">
 
-<!-- List element -->
-<div class="col-12 col-md-6"><div class="card"><div class="card-body">
-<h5 class="card-title">Forsvarsord</h5>
-<p class="card-text">
-<pre>
-"name":"forsvarsord",
-"displayname":"Forsvarsord",
-"description":"Ord og uttrykk fra Forsvaret",
-"origin", "forsvaret.no",
-"file":"forsvarsord.json",
-</pre>
-<span class="badge text-bg-secondary">V1</span>
-<span class="badge text-bg-secondary">JSON</span>
-<span class="badge text-bg-secondary">Gratis</span>
-</p>
-<a href="api/v1/forsvarsord.json" class="stretched-link">forsvarsord.json</a>
-</div></div></div>
-
-
-<!-- List element -->
-<div class="col-12 col-md-6"><div class="card"><div class="card-body">
-
-<h5 class="card-title">Kebabnorsk</h5>
-<p class="card-text">
-<pre>
-"name":"kebabnorsk",
-"displayname":"Kebabnorsk",
-"description":"Liste med ord og uttrykk fra kebabnorsk, som er et uformelt norsk språk med røtter i blant annet arabisk, tyrkisk og urdu.",
-"origin", "kebabnorsk.diestus.no",
-"file":"kebabnorsk.json",
-</pre>
-<span class="badge text-bg-secondary">V1</span>
-<span class="badge text-bg-secondary">JSON</span>
-<span class="badge text-bg-secondary">Gratis</span>
-</p>
-
-<a href="api/v1/kebabnorsk.json" class="stretched-link">kebabnorsk.json</a>
-</div></div></div>
-
-
-<!-- List element -->
-<div class="col-12 col-md-6"><div class="card"><div class="card-body">
-
-<h5 class="card-title">Recipes</h5>
-<p class="card-text">
-<pre>
-"name": "recipes",
-"displayname": "Recipes",
-"description": "Liste med ulike matretter, ingredienser og fremgangsmåter.",
-"origin": "bbc.co.uk",
-"file": "kokebok.json",
-</pre>
-<span class="badge text-bg-secondary">V1</span>
-<span class="badge text-bg-secondary">JSON</span>
-<span class="badge text-bg-secondary">Gratis</span>
-</p>
-
-<a href="api/v1/recipes.json" class="stretched-link">recipes.json</a>
-</div></div></div>
-
-
-<!-- List element -->
-<div class="col-12 col-md-6"><div class="card"><div class="card-body">
-
-<h5 class="card-title">Teltplasser</h5>
-<p class="card-text">
-<pre>
-"name": "teltplasser",
-"displayname": "teltplasser",
-"description": "Liste over besøksverdige teltplasser i Norge (med koordinater)",
-"origin": "teltplass.no",
-"file": "teltplasser.json",
-</pre>
-<span class="badge text-bg-secondary">V1</span>
-<span class="badge text-bg-secondary">JSON</span>
-<span class="badge text-bg-secondary">Gratis</span>
-</p>
-
-<a href="api/v1/teltplasser.json" class="stretched-link">teltplasser.json</a>
-</div></div></div>
-
+                <!-- List element -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Forsvarsord</h5>
+                            <p class="card-text">Ord og uttrykk fra Forsvaret</p>
+                            <p class="card-text">Opprinnelig hentet fra forsvaret.no</p>
+                            <p class="card-text">
+                                <span class="badge text-bg-secondary">V1</span>
+                                <span class="badge text-bg-secondary">JSON</span>
+                                <span class="badge text-bg-secondary">Gratis</span>
+                            </p>
+                            <a href="api/v1/forsvarsord.json" class="stretched-link">forsvarsord.json</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
 
 
-        <!-- Footer-->
-        <footer class="py-4 mt-auto bg-dark">
-            <div class="container">
-                <div class="row mx-5">
-                    <p class="col-12 text-center text-white">Nettsideprosjekt med MakerSpace</p>
+                <!-- List element -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Kebabnorsk</h5>
+                            <p class="card-text">Liste med ord og uttrykk fra kebabnorsk, som er et uformelt norsk språk med røtter i blant annet arabisk, tyrkisk og urdu.</p>
+                            <p class="card-text">Opprinnelig hentet fra kebabnorsk.diestus.no</p>
+                            <p class="card-text">
+                                <span class="badge text-bg-secondary">V1</span>
+                                <span class="badge text-bg-secondary">JSON</span>
+                                <span class="badge text-bg-secondary">Gratis</span>
+                            </p>
+
+                            <a href="api/v1/kebabnorsk.json" class="stretched-link">kebabnorsk.json</a>
+                        </div>
+                    </div>
                 </div>
+
+
+                <!-- List element -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Recipes</h5>
+                            <p class="card-text">Liste med ulike matretter, ingredienser og fremgangsmåter.</p>
+                            <p class="card-text">Opprinnelig hentet fra bbc.co.uk</p>
+                            <p class="card-text">
+                                <span class="badge text-bg-secondary">V1</span>
+                                <span class="badge text-bg-secondary">JSON</span>
+                                <span class="badge text-bg-secondary">Gratis</span>
+                            </p>
+
+                            <a href="api/v1/recipes.json" class="stretched-link">recipes.json</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- List element -->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <h5 class="card-title">Teltplasser</h5>
+                            <p class="card-text">Liste over besøksverdige teltplasser i Norge (med koordinater)</p>
+                            <p class="card-text">Opprinnelig hentet fra teltplass.no</p>
+                            <span class="badge text-bg-secondary">V1</span>
+                            <span class="badge text-bg-secondary">JSON</span>
+                            <span class="badge text-bg-secondary">Gratis</span>
+                            </p>
+
+                            <a href="api/v1/teltplasser.json" class="stretched-link">teltplasser.json</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </footer>
-        
-        <!-- Bootstrap JS-->
-        <script type="text/javascript" src="static/js/bootstrap/bootstrap.bundle.min.js"></script>
-        <!-- jQuery JS-->
-        <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
-        <!-- Script JS-->
-        <script type="text/javascript" src="static/js/script.js"></script>
-        
-    </body>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="py-4 mt-auto bg-dark">
+        <div class="container">
+            <div class="row mx-5">
+                <p class="col-12 text-center text-white">Nettsideprosjekt med MakerSpace</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS-->
+    <script type="text/javascript" src="static/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- jQuery JS-->
+    <script type="text/javascript" src="static/js/jquery/jquery.min.js"></script>
+    <!-- Script JS-->
+    <script type="text/javascript" src="static/js/script.js"></script>
+
+</body>
+
 </html>
