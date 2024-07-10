@@ -1,0 +1,760 @@
+{
+    "foods": [
+        {
+            "searchKeywords": [
+                "belgfrukt"
+            ],
+            "calories": {
+                "sourceId": "MI0115",
+                "quantity": 310,
+                "unit": "kcal"
+            },
+            "portions": [
+                {
+                    "portionName": "desiliter",
+                    "portionUnit": "dl",
+                    "quantity": 85.0,
+                    "unit": "g"
+                }
+            ],
+            "ediblePart": {
+                "percent": 100,
+                "sourceId": "0"
+            },
+            "langualCodes": [
+                "N0001",
+                "G0003",
+                "A0152",
+                "M0001",
+                "K0003",
+                "E0150",
+                "F0003",
+                "B1110",
+                "C0133",
+                "H0138",
+                "J0116",
+                "P0024",
+                "A0831"
+            ],
+            "energy": {
+                "sourceId": "MI0114",
+                "quantity": 1312.4,
+                "unit": "kJ"
+            },
+            "foodName": "Adzukib\u00f8nner, t\u00f8rr",
+            "latinName": "Vigna angularis (Willd.) Ohwi & H. Ohashi var. angularis",
+            "constituents": [
+                {
+                    "sourceId": "10",
+                    "nutrientId": "Vit E"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.1,
+                    "unit": "g",
+                    "nutrientId": "Flerum"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C22:6n-3Dokosaheksaensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 1.09,
+                    "unit": "mg",
+                    "nutrientId": "Cu"
+                },
+                {
+                    "sourceId": "30",
+                    "quantity": 0.03,
+                    "unit": "g",
+                    "nutrientId": "C18:0Stearinsyre"
+                },
+                {
+                    "sourceId": "331",
+                    "quantity": 47.2,
+                    "unit": "g",
+                    "nutrientId": "Stivel"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Alko"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 2.6,
+                    "unit": "mg",
+                    "nutrientId": "Niacin"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.46,
+                    "unit": "mg",
+                    "nutrientId": "Vit B1"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.11,
+                    "unit": "g",
+                    "nutrientId": "Omega-6"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 381.0,
+                    "unit": "mg",
+                    "nutrientId": "P"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Vit B12"
+                },
+                {
+                    "sourceId": "MI_SUGAR_NO",
+                    "quantity": 3.0,
+                    "unit": "g",
+                    "nutrientId": "Mono+Di"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:3n-3Eikosatriensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C18:3n-3AlfaLinolensyre"
+                },
+                {
+                    "sourceId": "MI0142",
+                    "quantity": 17.0,
+                    "unit": "g",
+                    "nutrientId": "Vann"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C22:5n-3Dokosapentaensyre"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:5n-3Eikosapentaensyre"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Sukker"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 5.0,
+                    "unit": "mg",
+                    "nutrientId": "Zn"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:3n-6DihomoGammaLinolensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 3.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Se"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.1,
+                    "unit": "g",
+                    "nutrientId": "Enumet"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Trans"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.11,
+                    "unit": "g",
+                    "nutrientId": "C18:2n-6Linolsyre"
+                },
+                {
+                    "sourceId": "MI0325",
+                    "quantity": 1.0,
+                    "unit": "\u00b5g-RE",
+                    "nutrientId": "Vit A"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 622.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Folat"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.2,
+                    "unit": "g",
+                    "nutrientId": "Mettet"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "mg",
+                    "nutrientId": "Kolest"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 5.0,
+                    "unit": "mg",
+                    "nutrientId": "Na"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 127.0,
+                    "unit": "mg",
+                    "nutrientId": "Mg"
+                },
+                {
+                    "sourceId": "10",
+                    "nutrientId": "I"
+                },
+                {
+                    "sourceId": "701G",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Vit D"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Omega-3"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:4n-6Arakidonsyre"
+                },
+                {
+                    "sourceId": "20",
+                    "quantity": 12.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "B-karo"
+                },
+                {
+                    "sourceId": "30",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C12:0Laurinsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 1254.0,
+                    "unit": "mg",
+                    "nutrientId": "K"
+                },
+                {
+                    "sourceId": "30",
+                    "quantity": 0.12,
+                    "unit": "g",
+                    "nutrientId": "C16:0Palmitinsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.22,
+                    "unit": "mg",
+                    "nutrientId": "Vit B2"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:4n-3Eikosatetraensyre"
+                },
+                {
+                    "sourceId": "MI0181",
+                    "quantity": 50.2,
+                    "unit": "g",
+                    "nutrientId": "Karbo"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.35,
+                    "unit": "mg",
+                    "nutrientId": "Vit B6"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "mg",
+                    "nutrientId": "Vit C"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 13.0,
+                    "unit": "g",
+                    "nutrientId": "Fiber"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Retinol"
+                },
+                {
+                    "sourceId": "30",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C14:0Myristinsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 19.9,
+                    "unit": "g",
+                    "nutrientId": "Protein"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.05,
+                    "unit": "g",
+                    "nutrientId": "C18:1"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 66.0,
+                    "unit": "mg",
+                    "nutrientId": "Ca"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C16:1"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.5,
+                    "unit": "g",
+                    "nutrientId": "Fett"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 5.0,
+                    "unit": "mg",
+                    "nutrientId": "Fe"
+                },
+                {
+                    "sourceId": "MI0120",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "NaCl"
+                }
+            ],
+            "uri": "https:\/\/www.matvaretabellen.no\/adzukibonner-torr\/",
+            "foodGroupId": "12",
+            "foodId": "06.178"
+        },
+        {
+            "searchKeywords": [
+                "gr\u00f8nnsaker"
+            ],
+            "calories": {
+                "sourceId": "MI0115",
+                "quantity": 11,
+                "unit": "kcal"
+            },
+            "portions": [
+                {
+                    "portionName": "desiliter",
+                    "portionUnit": "dl",
+                    "quantity": 55.0,
+                    "unit": "g"
+                },
+                {
+                    "portionName": "stk",
+                    "portionUnit": "stk",
+                    "quantity": 325.0,
+                    "unit": "g"
+                },
+                {
+                    "portionName": "skive",
+                    "portionUnit": "stk",
+                    "quantity": 6.0,
+                    "unit": "g"
+                }
+            ],
+            "ediblePart": {
+                "percent": 97,
+                "sourceId": "202"
+            },
+            "langualCodes": [
+                "N0001",
+                "A0826",
+                "G0003",
+                "R0316",
+                "A0152",
+                "M0001",
+                "H0001",
+                "K0003",
+                "E0150",
+                "B1404",
+                "F0003",
+                "C0140",
+                "P0024",
+                "J0001"
+            ],
+            "energy": {
+                "sourceId": "MI0114",
+                "quantity": 44.0,
+                "unit": "kJ"
+            },
+            "foodName": "Agurk, norsk, r\u00e5",
+            "latinName": "Cucumis sativus L.",
+            "constituents": [
+                {
+                    "sourceId": "202",
+                    "quantity": 0.03,
+                    "unit": "mg",
+                    "nutrientId": "Vit B6"
+                },
+                {
+                    "sourceId": "60a",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Mettet"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:3n-6DihomoGammaLinolensyre"
+                },
+                {
+                    "sourceId": "MI0325",
+                    "quantity": 7.0,
+                    "unit": "\u00b5g-RE",
+                    "nutrientId": "Vit A"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.1,
+                    "unit": "mg-ATE",
+                    "nutrientId": "Vit E"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Alko"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 3.0,
+                    "unit": "mg",
+                    "nutrientId": "Na"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 19.0,
+                    "unit": "mg",
+                    "nutrientId": "Ca"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.02,
+                    "unit": "mg",
+                    "nutrientId": "Vit B2"
+                },
+                {
+                    "sourceId": "60a",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Enumet"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Vit B12"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:4n-3Eikosatetraensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C22:6n-3Dokosaheksaensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:5n-3Eikosapentaensyre"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.1,
+                    "unit": "g",
+                    "nutrientId": "Fett"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Sukker"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.2,
+                    "unit": "mg",
+                    "nutrientId": "Niacin"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.01,
+                    "unit": "g",
+                    "nutrientId": "C18:1"
+                },
+                {
+                    "sourceId": "MI_SUGAR_NO",
+                    "quantity": 1.2,
+                    "unit": "g",
+                    "nutrientId": "Mono+Di"
+                },
+                {
+                    "sourceId": "74f",
+                    "quantity": 0.03,
+                    "unit": "g",
+                    "nutrientId": "Omega-6"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.1,
+                    "unit": "mg",
+                    "nutrientId": "Zn"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 189.0,
+                    "unit": "mg",
+                    "nutrientId": "K"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Trans"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.04,
+                    "unit": "mg",
+                    "nutrientId": "Vit B1"
+                },
+                {
+                    "sourceId": "MI0181",
+                    "quantity": 1.2,
+                    "unit": "g",
+                    "nutrientId": "Karbo"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "mg",
+                    "nutrientId": "Kolest"
+                },
+                {
+                    "sourceId": "60a",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Flerum"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 26.0,
+                    "unit": "mg",
+                    "nutrientId": "P"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.8,
+                    "unit": "g",
+                    "nutrientId": "Protein"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 8.0,
+                    "unit": "mg",
+                    "nutrientId": "Vit C"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.01,
+                    "unit": "g",
+                    "nutrientId": "C14:0Myristinsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.03,
+                    "unit": "g",
+                    "nutrientId": "C18:2n-6Linolsyre"
+                },
+                {
+                    "sourceId": "73f",
+                    "quantity": 0.01,
+                    "unit": "g",
+                    "nutrientId": "Omega-3"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 13.0,
+                    "unit": "mg",
+                    "nutrientId": "Mg"
+                },
+                {
+                    "sourceId": "325",
+                    "quantity": 0.2,
+                    "unit": "\u00b5g",
+                    "nutrientId": "I"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Vit D"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:3n-3Eikosatriensyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.03,
+                    "unit": "g",
+                    "nutrientId": "C16:0Palmitinsyre"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 11.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Folat"
+                },
+                {
+                    "sourceId": "50",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Retinol"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.8,
+                    "unit": "g",
+                    "nutrientId": "Fiber"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C12:0Laurinsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.01,
+                    "unit": "g",
+                    "nutrientId": "C18:0Stearinsyre"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 85.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "B-karo"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.02,
+                    "unit": "mg",
+                    "nutrientId": "Cu"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.01,
+                    "unit": "g",
+                    "nutrientId": "C18:3n-3AlfaLinolensyre"
+                },
+                {
+                    "sourceId": "MI0142",
+                    "quantity": 97.0,
+                    "unit": "g",
+                    "nutrientId": "Vann"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C20:4n-6Arakidonsyre"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C22:5n-3Dokosapentaensyre"
+                },
+                {
+                    "sourceId": "202",
+                    "quantity": 0.3,
+                    "unit": "mg",
+                    "nutrientId": "Fe"
+                },
+                {
+                    "sourceId": "460g",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "C16:1"
+                },
+                {
+                    "sourceId": "60a",
+                    "quantity": 0.0,
+                    "unit": "\u00b5g",
+                    "nutrientId": "Se"
+                },
+                {
+                    "sourceId": "331",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "Stivel"
+                },
+                {
+                    "sourceId": "MI0120",
+                    "quantity": 0.0,
+                    "unit": "g",
+                    "nutrientId": "NaCl"
+                }
+            ],
+            "uri": "https:\/\/www.matvaretabellen.no\/agurk-norsk-ra\/",
+            "foodGroupId": "6.2",
+            "foodId": "06.010"
+        },
+    ],
+    "locale": "nb"
+}
